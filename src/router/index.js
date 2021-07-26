@@ -20,5 +20,5 @@ const router = new VueRouter({
   mode: 'history',
   routes
 })
-console.log(router)
+
 export default router
