@@ -13,6 +13,16 @@ const routes = [
     path: '/el-com',
     name: 'element-component',
     component: () => import('../components/elementCom.vue')
+  },
+  {
+    path: '/db',
+    name: 'db',
+    component: () => import('../components/indexedDB.vue')
+  },
+  {
+    path: '/easytable',
+    name: 'easytable',
+    component: () => import('../components/vue-easytable.vue')
   }
 ]
 

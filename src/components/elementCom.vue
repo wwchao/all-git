@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-top: 10px;">
+  <div style="margin-top: 10px;" @click="alert()">
     <el-popover
       placement="bottom"
       width="230"
@@ -11,7 +11,7 @@
           </el-checkbox-group>
         </div>
       </div>
-      <el-button slot="reference">select1</el-button>
+      <el-button slot="reference" @click="stopPropagation">select1</el-button>
     </el-popover>
     <el-popover
       placement="bottom"
@@ -62,8 +62,19 @@ export default {
       checkedCities: []
     }
   },
+  mounted () {
+    this.$axios.get('i.json').then((res) => {
+      console.log(res)
+    })
+  },
   methods: {
-    handleCheckedCitiesChange () {}
+    handleCheckedCitiesChange () {},
+    alert () {
+      alert('asdfasdfasdfsdadfa')
+    },
+    stopPropagation (event) {
+      event.stopPropagation()
+    }
   }
 }
 </script>

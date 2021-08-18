@@ -1,0 +1,318 @@
+{
+  "code": 2000,
+  "data": {
+    "doeId": "-1",
+    "fromType": 1,
+    "id": "1076",
+    "interval": "2021-07-30T03:05:39.00Z2021-07-31T03:05:39.00Z",
+    "areaTargets":  [
+      {
+        "alts": [0, 0, 0, 0, 0, 0],
+        "downloadTime": {
+          "m_iDownloadTimeType": 0,
+          "use": true,
+          "m_tMaxDownloadTime": "2021-07-30T03:05:39.00Z"
+        },
+        "excludeWeatherConditions": {
+          "use": false,
+          "values": true
+        },
+        "id": "xxx海区域",
+        "imagePeriod": {
+          "use": false
+        },
+        "imageTimes": {
+          "II": 100,
+          "CCD": 100,
+          "SAR": 100,
+          "use": true,
+          "EC": 100
+        },
+        "imagingTime": {
+          "use": true,
+          "value": 10
+        },
+        "lats": [23.7, 16.6, 10.7, 5.8, 2.2, 10.9],
+        "lons": [188.3, 109.2, 109.9, 104.5, 108, 118.8],
+        "m_bMustObserve": false,
+        "maxSR": {
+          "II": 10,
+          "CCD": 10,
+          "SAR": 10,
+          "use": false,
+          "EC": 10
+        },
+        "minElevation": {
+          "use": true,
+          "value": 0
+        },
+        "minSolarElevation": {
+          "use": true,
+          "value": 0
+        },
+        "name": "xxx海区域",
+        "selSat": "1",
+        "sensorType": {
+          "II": true,
+          "CCD": true,
+          "SAR": true,
+          "use": true,
+          "EC": true
+        },
+        "weight": 99
+      }
+    ],
+    "moveTargets": [
+      {
+        "downloadTime": {
+          "m_iDownloadTimeType": 0,
+          "use": true,
+          "m_tMaxDownloadTime": "2021-07-30T03:05:39.00Z"
+        },
+        "excludeWeatherConditions": {
+          "use": false,
+          "values": true
+        },
+        "id": "_8125",
+        "imagePeriod": {
+          "use": false
+        },
+        "imageTimes": {
+          "II": 100,
+          "CCD": 100,
+          "SAR": 100,
+          "use": true,
+          "EC": 100
+        },
+        "imagingTime": {
+          "use": true,
+          "value": 10
+        },
+        "lats": [23.7, 16.6, 10.7, 5.8, 2.2, 10.9],
+        "lons": [188.3, 109.2, 109.9, 104.5, 108, 118.8],
+        "m_bMustObserve": false,
+        "maxSR": {
+          "II": 10,
+          "CCD": 10,
+          "SAR": 10,
+          "use": false,
+          "EC": 10
+        },
+        "minElevation": {
+          "use": true,
+          "value": 0
+        },
+        "minSolarElevation": {
+          "use": true,
+          "value": 0
+        },
+        "name": "xxx耶号0",
+        "selSat": "1,1,1,1,1",
+        "sensorType": {
+          "II": true,
+          "CCD": true,
+          "SAR": true,
+          "use": true,
+          "EC": true
+        },
+        "time": [
+          0, 27209, 31827, 34751, 40924, 45678, 50296, 54772, 60547
+        ],
+        "weight": 99
+      }
+    ],
+    "satellites": [
+      {
+        "id": "90000",
+        "name": "JB23",
+        "sR": "5.0",
+        "semi": "42165.8",
+        "type": "0",
+        "viewField": {
+          "iHalfAngle": 20,
+          "oHalfAngle": 50,
+          "hHalfAngle": 0.08,
+          "vHalfAngle": 0.08,
+          "HalfAngle": 55,
+          "type": 2
+        },
+        "guidance": {
+          "use": true,
+          "satId": ["1234"]
+        }
+      },
+      {
+        "id": "240003",
+        "name": "JB24-电侦-03",
+        "sR": "5.0",
+        "semi": "6665.8",
+        "type": "3",
+        "viewField": {
+          "iHalfAngle": 20,
+          "oHalfAngle": 50,
+          "hHalfAngle": 0.08,
+          "vHalfAngle": 0.08,
+          "HalfAngle": 55,
+          "type": 2
+        },
+        "guidance": {
+          "use": true,
+          "satId": ["1234"]
+        }
+      },
+      {
+        "id": "90000",
+        "name": "JB24-光学-02",
+        "sR": "5.0",
+        "semi": "6165.8",
+        "type": "0",
+        "viewField": {
+          "iHalfAngle": 20,
+          "oHalfAngle": 50,
+          "hHalfAngle": 0.08,
+          "vHalfAngle": 0.08,
+          "HalfAngle": 55,
+          "type": 2
+        },
+        "guidance": {
+          "use": true,
+          "satId": ["1234"]
+        }
+      }
+    ],
+    "targets": [
+      {
+        "alts": 0,
+        "downloadTime": {
+          "m_iDownloadTimeType": 0,
+          "use": true,
+          "m_tMaxDownloadTime": "2021-07-30T03:05:39.00Z"
+        },
+        "excludeWeatherConditions": {
+          "use": false,
+          "values": [
+            {
+              "start": "",
+              "end": "",
+              "type": 0
+            }
+          ]
+        },
+        "id": "666海防港潜艇基地",
+        "imagePeriod": {
+          "use": false,
+          "values": ["2021-07-30T03:05:39.00Z2021-07-31T03:05:39.00Z"]
+        },
+        "imageTimes": {
+          "II": 100,
+          "CCD": 100,
+          "SAR": 100,
+          "use": true,
+          "EC": 100
+        },
+        "imagingTime": {
+          "use": true,
+          "value": 10
+        },
+        "lats": 20.8667,
+        "lons": 106.683,
+        "m_bMustObserve": false,
+        "maxSR": {
+          "II": 10,
+          "CCD": 10,
+          "SAR": 10,
+          "use": false,
+          "EC": 10
+        },
+        "minElevation": {
+          "use": true,
+          "value": 0
+        },
+        "minSolarElevation": {
+          "use": true,
+          "value": 0
+        },
+        "name": "666海防港潜艇基地",
+        "selSat": "1,1",
+        "sensorType": {
+          "II": true,
+          "CCD": true,
+          "SAR": true,
+          "use": true,
+          "EC": true
+        },
+        "weight": 99
+      }
+    ],
+    "stations": [
+      {
+        "alt": 0,
+        "id": "_ca62",
+        "lat": 46.799,
+        "lon": 130.3,
+        "maxSats": {
+          "use": true,
+          "value": 3
+        },
+        "minElevation": {
+          "use": true,
+          "value": 3
+        },
+        "name": "佳木斯站",
+        "type": 0,
+        "useAccess": false
+      },
+      {
+        "alt": 0,
+        "id": "_ca62",
+        "lat": 46.799,
+        "lon": 130.3,
+        "maxSats": {
+          "use": true,
+          "value": 4
+        },
+        "minElevation": {
+          "use": true,
+          "value": 5
+        },
+        "name": "佳木斯站",
+        "type": 1,
+        "useAccess": false
+      },
+      {
+        "alt": 0,
+        "id": "_40c5",
+        "lat": 40.077,
+        "lon": 116.197,
+        "maxSats": {
+          "use": true,
+          "value": 3
+        },
+        "minElevation": {
+          "use": true,
+          "value": 3
+        },
+        "name": "北京站",
+        "type": 0,
+        "useAccess": false
+      },
+      {
+        "alt": 0,
+        "id": "_40c5",
+        "lat": 40.077,
+        "lon": 116.197,
+        "maxSats": {
+          "use": true,
+          "value": 4
+        },
+        "minElevation": {
+          "use": true,
+          "value": 5
+        },
+        "name": "北京站",
+        "type": 1,
+        "useAccess": false
+      }
+    ]
+  }
+}

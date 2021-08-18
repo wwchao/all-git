@@ -39,7 +39,8 @@ export default {
       polygonLon: [],
       polygonLat: [],
       vector: null,
-      plygonfeature: null
+      plygonfeature: null,
+      featureMap: new Map()
     }
   },
   mounted () {
@@ -106,7 +107,8 @@ export default {
         this.addLineString()
       }
       this.draw.on('drawend', (evt) => {
-        console.log(evt)
+        this.featureMap.set(type, evt.feature)
+        console.log(this.featureMap.get(type))
         evt.feature.setStyle(new Style({
           fill: new Fill({
             color: 'rgba(255, 255, 255, 0.5)'
@@ -191,10 +193,12 @@ export default {
       this.vector.getSource().addFeature(this.plygonfeature);
     },
     unSetPolygon () {
-      this.vector.getSource().getFeatures().forEach((e) => {
-        console.log(e)
-        // this.vector.getSource().removeFeature(e)
-      })
+      console.log(this.featureMap.get('Point'))
+      this.vector.getSource().removeFeature(this.featureMap.get('Point'))
+      // this.vector.getSource().getFeatures().forEach((e) => {
+      //   console.log(e)
+      //   this.vector.getSource().removeFeature(e)
+      // })
       // this.vector.getSource().removeFeature(this.plygonfeature)
     },
     setLineString () {
